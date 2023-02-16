@@ -1,0 +1,63 @@
+[
+  {
+    "inputs": [],
+    "stateMutability": "nonpayable",
+    "type": "constructor"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "string",
+        "name": "newName",
+        "type": "string"
+      },
+      {
+        "indexed": false,
+        "internalType": "string",
+        "name": "newSymbol",
+        "type": "string"
+      }
+    ],
+    "name": "Rebrand",
+    "type": "event"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "bytes",
+        "name": "_bytesData",
+        "type": "bytes"
+      }
+    ],
+    "name": "$__install",
+    "outputs": [
+      {
+        "internalType": "string",
+        "name": "newName",
+        "type": "string"
+      },
+      {
+        "internalType": "string",
+        "name": "newSymbol",
+        "type": "string"
+      }
+    ],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "bytes",
+        "name": "_bytesData",
+        "type": "bytes"
+      }
+    ],
+    "name": "$__uninstall",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]
